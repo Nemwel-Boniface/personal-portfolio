@@ -7,6 +7,10 @@
   padding: 0;
 }
 
+body {
+  margin: 0 auto;
+}
+
 h1 {
   font-family: 'Crete Round', serif;
 }
@@ -17,36 +21,45 @@ p {
 
 /* actual page styling */
 
-/*Header section*/
+/* Header section */
 
 .header {
   height: 92px;
   width: 375px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
-  background-color: #3C3A39;
+  left: 0;
+  top: 0;
+  border-radius: 0;
+  background-color: #3c3a39;
 }
-.topHeaderBar
-{
+
+.topHeaderBar {
   margin: 10px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 10px;
-  color: #ffffff;
+  color: #fff;
 }
 
-.topnavBar
-{
+.authorheader h2 {
+  font-size: 52px;
+  font-family: 'Crete Round', serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6800;
+}
+
+.topnavBar {
   margin: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #ffffff;
+  color: #fff;
 }
-.topnavBar .navleft h2
-{
+
+.topnavBar .navleft h2 {
   position: static;
   height: 24px;
   left: 12px;
@@ -57,4 +70,67 @@ p {
   font-family: 'Roboto', sans-serif;
   line-height: 24px;
   text-align: center;
+}
+
+/* main page styling */
+.main {
+  height: 590px;
+  width: 375px;
+  left: 0;
+  top: 92px;
+  border-radius: 0;
+  padding: 120px 24px 120px 24px;
+  background: #1c1a19;
+}
+
+.authorheader {
+  margin: 0 24px 12px 24px;
+  padding-top: 120px;
+}
+
+.authoroccupation {
+  margin: 0 24px 12px 24px;
+  height: 27px;
+  width: 327px;
+  left: 24px;
+  top: 256px;
+}
+
+.authoroccupation p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  font-style: normal;
+  color: #fff5e1;
+}
+
+.authorexplanation {
+  width: 327px;
+  height: 124px;
+  margin: 0 24px 12px 24px;
+}
+
+.authorexplanation p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: normal;
+  color: #fff;
+}
+
+.authorsocials {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 24px;
+  height: 75px;
+}
+
+.authorsocials img {
+  width: 20px;
+  height: 16px;
+  margin-right: 20px;
+  color: #fff;
 }
