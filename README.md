@@ -1,43 +1,54 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# PERSONAL PORTFOLIO
 
-> One paragraph statement about the project.
+> A "portfolio" HTML-5 & CSS3 repository built during the portal learning module. 
 
-![screenshot](./app_screenshot.png)
+![screenshot](./Helloworld.png)
 
-Additional description about the project and its features.
+It is a show of my understanding of Gitflow, use of Linters, HTML5 semantics, CSS3 flexbox and figma.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML-5
+- CSS3
+- Linters
+- Figma
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://nemwel-boniface.github.io/personal-portfolio/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
-
-To get a local copy up and running follow these simple example steps.
+- To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- You only need a browser to run the html file in.
+
 ### Setup
+
+- Create a new folder to store the files in.
 
 ### Install
 
-### Usage
+- Open your command prompt or terminal and run.
+- git clone git@github.com:Nemwel-Boniface/personal-portfolio.git .
+
 
 ### Run tests
 
+- To run tests run :
+- npx hint .
+- npx stylelint "**/*.{css,scss}"
+
 ### Deployment
+
+- Project is deployed using 
+- git push <branch_name>
 
 
 
@@ -45,21 +56,16 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Nemwel-Boniface ](https://github.com/Nemwel-Boniface)
+- Twitter: [@nemwel_bonie](https://twitter.com/nemwel_bonie)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nemwel-nyandoro-aa1b2620b/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Nemwel-Boniface/personal-portfolio).
 
 ## Show your support
 
