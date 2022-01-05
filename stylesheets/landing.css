@@ -1,0 +1,57 @@
+/* This stylesheet will contain all the styling for the landing page */
+
+/* Project was designed with a mobile first approach */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Crete Round', serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* actual page styling */
+
+/*Header section*/
+
+.header {
+  position: absolute;
+  height: 92px;
+  width: 375px;
+  left: 0;
+  top: 0;
+  background-color: #3c3a49;
+}
+
+.topHeaderBar
+{
+  margin: 0 10px;
+  padding: 20px 0;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.icons-right img
+{
+  height: 30px;
+  width: 30px;
+}
+.topHeaderBar .time-left p
+{
+  /*position: absolute;
+  width: 64px;
+  height: 16px;
+  left: 0;
+  top: calc(50% - 16px/2 + 0.5px);
+  font-family: 'Roboto', sans-serif;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: -0.28px;
+  color: #ffffff;*/
+}
