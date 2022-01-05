@@ -20,38 +20,41 @@ p {
 /*Header section*/
 
 .header {
-  position: absolute;
   height: 92px;
   width: 375px;
-  left: 0;
-  top: 0;
-  background-color: #3c3a49;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  background-color: #3C3A39;
 }
-
 .topHeaderBar
 {
-  margin: 0 10px;
-  padding: 20px 0;
+  margin: 10px 10px;
   display: flex;
-  width: 100%;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  color: #ffffff;
 }
-.icons-right img
+
+.topnavBar
 {
-  height: 30px;
-  width: 30px;
+  margin: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
 }
-.topHeaderBar .time-left p
+.topnavBar .navleft h2
 {
-  /*position: absolute;
-  width: 64px;
-  height: 16px;
-  left: 0;
-  top: calc(50% - 16px/2 + 0.5px);
+  position: static;
+  height: 24px;
+  left: 12px;
+  top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
   font-family: 'Roboto', sans-serif;
-  line-height: 16px;
+  line-height: 24px;
   text-align: center;
-  letter-spacing: -0.28px;
-  color: #ffffff;*/
 }
