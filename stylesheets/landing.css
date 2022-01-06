@@ -33,7 +33,7 @@ p {
 }
 
 .topHeaderBar {
-  margin: 10px 10px;
+  margin: 0 10px 10px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -65,11 +65,16 @@ p {
   left: 12px;
   top: 10px;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
   font-style: normal;
   font-family: 'Roboto', sans-serif;
   line-height: 24px;
   text-align: center;
+}
+
+.topnavBar .navleft h2 a {
+  text-decoration: none;
+  color: #fff;
 }
 
 /* main page styling */
