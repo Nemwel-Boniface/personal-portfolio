@@ -87,6 +87,17 @@ p {
   padding-top: 120px;
 }
 
+.authordetails {
+  background-image: url(../images/illustration-header-mobile.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 312.0314551946087px;
+  left: 620.1044921875px;
+  width: 406.8890270952539px;
+  top: 317px;
+  border-radius: 0;
+}
+
 .authoroccupation {
   margin: 0 24px 12px 24px;
   height: 27px;
@@ -127,9 +138,21 @@ p {
   height: 75px;
 }
 
-.authorsocials > div img {
+.authorsocials img {
   width: 20px;
   height: 16px;
   margin-right: 20px;
-  color: #fff;
+}
+
+.authorsocials > div {
+  margin-right: 20px;
+}
+
+.imagejoin img {
+  margin-right: 0;
+}
+
+.authorsocials > div img {
+  width: 20px;
+  height: 16px;
 }
