@@ -93,13 +93,12 @@ p {
 }
 
 .authordetails {
+  position: relative;
   background-image: url(../images/illustration-header-mobile.png);
   background-repeat: no-repeat;
-  background-position: bottom;
-  height: 312.0314551946087px;
-  left: 620.1044921875px;
-  width: 406.8890270952539px;
-  top: 317px;
+  background-position: right-bottom;
+  right: -10;
+  top: 10;
   border-radius: 0;
 }
 
@@ -144,11 +143,31 @@ p {
 }
 
 .authorsocials img {
-  width: 20px;
-  height: 16px;
   margin-right: 20px;
 }
+.authorsocials .cat
+{
+  height: 20px;
+width: 17.985200881958008px;
 
+}
+.authorsocials .cheers
+{
+  height: 20px;
+width: 14.166671752929688px;
+
+}
+.authorsocials  .tweet
+{
+  height: 19.962478637695312px;
+width: 19.985925674438477px;
+
+}
+.authorsocials .m
+{
+  height: 16px;
+width: 20px;
+}
 .authorsocials > div {
   margin-right: 20px;
 }
@@ -157,7 +176,15 @@ p {
   margin-right: 0;
 }
 
-.authorsocials > div img {
-  width: 20px;
-  height: 16px;
+.authorsocials .imagejoin .i {
+  height: 13.72413444519043px;
+width: 4.974092960357666px;
+
+}
+.authorsocials .imagejoin .n
+{
+  height: 16.965517044067383px;
+width: 12.711573600769043px;
+
+
 }
