@@ -4,7 +4,7 @@
 
 > A "portfolio" HTML-5 & CSS3 repository built during the portal learning module. 
 
-![screenshot](./Helloworld.png)
+![screenshot](./images/Nemwellandingpage1.png)
 
 It is a show of my understanding of Gitflow, use of Linters, HTML5 semantics, CSS3 flexbox and figma.
 
