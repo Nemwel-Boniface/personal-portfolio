@@ -79,7 +79,6 @@ p {
   left: 0;
   top: 92px;
   border-radius: 0;
-  padding: 120px 24px 120px 24px;
   background: #1c1a19;
 }
 
@@ -124,11 +123,11 @@ p {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0 24px;
+  padding: 0 24px 75px 24px;
   height: 75px;
 }
 
-.authorsocials img {
+.authorsocials > div img {
   width: 20px;
   height: 16px;
   margin-right: 20px;
