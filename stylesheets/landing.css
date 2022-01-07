@@ -58,6 +58,10 @@ p {
   color: #ff6800;
 }
 
+ul li a {
+  text-decoration: none;
+}
+
 .topnavBar {
   margin: 10px 20px;
   display: flex;
@@ -86,6 +90,11 @@ p {
   font-family: 'Roboto', sans-serif;
   line-height: 24px;
   text-align: center;
+}
+
+.topnavBar .navright a {
+  text-decoration: none;
+  color: #fff;
 }
 
 /* main page styling */
@@ -157,10 +166,6 @@ p {
 
 ul li {
   list-style-type: none;
-}
-
-ul li a {
-  text-decoration: none;
 }
 
 .topnavBar .navleft h2 a {
