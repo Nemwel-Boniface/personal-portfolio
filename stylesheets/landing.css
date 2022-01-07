@@ -7,9 +7,15 @@
   padding: 0;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0 auto;
-  overflow-x: hidden;
+  max-width: 375px;
+  position: relative;
 }
 
 h1 {
@@ -42,10 +48,10 @@ p {
   color: #fff;
 }
 
-.authorheader h2 {
+.authorheader h1 {
   font-size: 52px;
   font-family: 'Crete Round', serif;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   line-height: 64px;
   letter-spacing: 0.37px;
@@ -58,6 +64,15 @@ p {
   justify-content: space-between;
   align-items: center;
   color: #fff;
+}
+
+.authoroccupation h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  font-style: normal;
+  color: #fff5e1;
 }
 
 .topnavBar .navleft h2 {
@@ -73,11 +88,6 @@ p {
   text-align: center;
 }
 
-/* .topnavBar .navleft h2 a {
-  text-decoration: none;
-  color: #fff;
-} */
-
 /* main page styling */
 .main {
   height: 590px;
@@ -87,8 +97,6 @@ p {
   border-radius: 0;
   background: #1c1a19;
   overflow: hidden;
-
-  /* position: relative; */
 }
 
 .authorheader {
@@ -124,15 +132,6 @@ p {
   top: 256px;
 }
 
-.authoroccupation p {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
-  font-style: normal;
-  color: #fff5e1;
-}
-
 .authorexplanation {
   width: 327px;
   height: 124px;
@@ -141,7 +140,7 @@ p {
 
 .authorexplanation p {
   font-family: 'Roboto', sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   font-style: normal;
