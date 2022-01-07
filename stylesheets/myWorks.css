@@ -1,0 +1,195 @@
+/* This stylesheet will contain all the styling for the My works section */
+
+/* Project was designed with a mobile first approach */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 375px;
+  position: relative;
+}
+
+h1 {
+  font-family: 'Crete Round', serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* actual page styling */
+
+.myWorks {
+  background: #e5e5e5;
+  width: 375px;
+}
+
+.myWorksHeading {
+  margin: 0 24px 104px 24px;
+  padding-top: 120px;
+  height: 83px;
+  width: 327px;
+  left: 0;
+  top: 0;
+  border-radius: 0;
+}
+
+.myWorksHeading h1 {
+  font-weight: 400;
+  font-size: 40px;
+  font-style: normal;
+  line-height: 52px;
+  margin-bottom: 24px;
+  color: #1c1a19;
+}
+
+.myWorksHeading hr {
+  width: 327px;
+  border: 1px solid #212121;
+}
+
+/* Featured projects now */
+
+.featuredWork {
+  margin: 80px 24px 24px 24px;
+}
+
+.featuredWorkLeft img {
+  max-width: 100%;
+  margin-bottom: 24px;
+}
+
+.featuredWorkRight .featuredWorkRightHeading {
+  margin-bottom: 12px;
+  height: 36px;
+  width: 327px;
+  left: 0;
+  top: 0;
+  border-radius: 0;
+}
+
+.featuredWorkRight .featuredWorkRightHeading h2 {
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+  font-size: 32px;
+  font-style: normal;
+  line-height: 44px;
+  color: #091e42;
+}
+
+.featuredWorkRightBody p {
+  font-family: 'Inter', sans-serif;
+  width: 327px;
+  height: 147px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+  margin-bottom: 12px;
+}
+
+.featuredWorkRightBody ul {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.featuredWorkRightBody ul li {
+  color: #091e42;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-right: 12px;
+  position: static;
+}
+
+.css {
+  border: 1px solid #8993a4;
+  width: 49px;
+  height: 40px;
+  margin-right: 12px;
+  background: #fff;
+}
+
+.css ul li {
+  width: 25px;
+  height: 20px;
+  padding: 10px 12px;
+  color: #091e42;
+}
+
+.html {
+  width: 56px;
+  height: 40px;
+  border: 1px solid #8993a4;
+  margin-right: 12px;
+  background: #fff;
+}
+
+.html ul li {
+  width: 32px;
+  height: 20px;
+  padding: 10px 12px;
+  color: #091e42;
+}
+
+.bootstrap {
+  height: 40px;
+  width: 95px;
+  background: #fff;
+  border: 1px solid #8993a4;
+  margin-right: 12px;
+}
+
+.bootstrap ul li {
+  width: 71px;
+  height: 20px;
+  padding: 10px 12px;
+  color: #091e42;
+}
+
+.ruby {
+  background: #fff;
+  border: 1px solid #8993a4;
+  margin-right: 12px;
+  width: 61px;
+  height: 40px;
+}
+
+.ruby ul li {
+  width: 37px;
+  height: 20px;
+  padding: 10px 12px;
+  color: #091e42;
+}
+
+.featuredWorkRightBody button {
+  width: 124px;
+  height: 48px;
+  background: #ff6b00;
+  align-items: center;
+  padding: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.featuredWorkRightBody button:hover {
+  color: #000;
+}
