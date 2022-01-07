@@ -113,7 +113,7 @@ p {
   width: 400.355061045224px;
   z-index: 1;
   border-radius: 0;
-  transform: matrix(-0.46, 0.3, 0.4, 0.7, 135, 0);
+  transform: matrix(-0.4, 0.3, 0.4, 0.7, 120, -20);
 }
 
 .authoroccupation {
