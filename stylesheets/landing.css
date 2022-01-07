@@ -1,0 +1,214 @@
+/* This stylesheet will contain all the styling for the landing page */
+
+/* Project was designed with a mobile first approach */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 375px;
+  position: relative;
+}
+
+h1 {
+  font-family: 'Crete Round', serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* actual page styling */
+
+/* Header section */
+
+.header {
+  height: 92px;
+  width: 375px;
+  left: 0;
+  top: 0;
+  border-radius: 0;
+  background-color: #3c3a39;
+}
+
+.topHeaderBar {
+  margin: 0 10px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  color: #fff;
+}
+
+.authorheader h1 {
+  font-size: 52px;
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6800;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.topnavBar {
+  margin: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.authoroccupation h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  font-style: normal;
+  color: #fff5e1;
+}
+
+.topnavBar .navleft h2 {
+  position: static;
+  height: 24px;
+  left: 12px;
+  top: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  line-height: 24px;
+  text-align: center;
+}
+
+.topnavBar .navright a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* main page styling */
+.main {
+  height: 590px;
+  width: 375px;
+  left: 0;
+  top: 92px;
+  border-radius: 0;
+  background: #1c1a19;
+  overflow: hidden;
+}
+
+.authorheader {
+  margin: 0 24px 12px 24px;
+  padding-top: 120px;
+  position: relative;
+}
+
+.authordetails {
+  border-radius: 0;
+  width: 375px;
+  overflow: hidden;
+}
+
+.bg img {
+  position: absolute;
+  top: 52%;
+  left: 50px;
+  right: 5%;
+  bottom: 0;
+  height: 311.7103797638283px;
+  width: 400.355061045224px;
+  z-index: 1;
+  border-radius: 0;
+  transform: matrix(-0.4, 0.3, 0.4, 0.7, 120, -20);
+}
+
+.authoroccupation {
+  margin: 0 24px 12px 24px;
+  height: 27px;
+  width: 327px;
+  left: 24px;
+  top: 256px;
+}
+
+.authorexplanation {
+  width: 327px;
+  height: 124px;
+  margin: 0 24px 12px 24px;
+}
+
+.authorexplanation p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: normal;
+  color: #fff;
+}
+
+.authorsocials {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 24px 75px 24px;
+  height: 75px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.topnavBar .navleft h2 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.authorsocials img {
+  margin-right: 20px;
+}
+
+.authorsocials .cat {
+  height: 20px;
+  width: 17.985200881958008px;
+}
+
+.authorsocials .cheers {
+  height: 20px;
+  width: 14.166671752929688px;
+}
+
+.authorsocials .tweet {
+  height: 19.962478637695312px;
+  width: 19.985925674438477px;
+}
+
+.authorsocials .m {
+  height: 16px;
+  width: 20px;
+}
+
+.imagejoin {
+  margin-right: 0;
+  display: flex;
+}
+
+.authorsocials .imagejoin li a .i {
+  height: 13.72413444519043px;
+  width: 4.974092960357666px;
+  margin-right: 5px;
+}
+
+.authorsocials .imagejoin .n {
+  height: 16.965517044067383px;
+  width: 12.711573600769043px;
+}
