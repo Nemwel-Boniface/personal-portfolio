@@ -99,12 +99,10 @@ ul li a {
 
 /* main page styling */
 .main {
-  height: 590px;
   width: 375px;
   left: 0;
   top: 92px;
   border-radius: 0;
-  background: #1c1a19;
   overflow: hidden;
 }
 
@@ -117,7 +115,9 @@ ul li a {
 .authordetails {
   border-radius: 0;
   width: 375px;
+  height: 590px;
   overflow: hidden;
+  background: #1c1a19;
 }
 
 .bg img {
