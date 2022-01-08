@@ -1,0 +1,215 @@
+/* This stylesheet will contain all the styling for the About me section */
+
+/* Project was designed with a mobile first approach */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 375px;
+  position: relative;
+}
+
+h1 {
+  font-family: 'Crete Round', serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* actual page styling */
+.whoIsNemwel {
+  width: 375px;
+  height: 2090px;
+  background: #1c1a19;
+  background-image: url(../images/aboutmebgimage.png);
+  background-position: top 360px right 0;
+  background-repeat: no-repeat;
+}
+
+.Nemweldesc {
+  position: relative;
+}
+
+.nemweldescleft .nemwelHeader {
+  width: 327px;
+  height: 79px;
+  padding-top: 120px;
+  margin: 0 24px 24px 24px;
+}
+
+.nemweldescleft .nemwelHeader h2 {
+  font-family: 'Crete Round', serif;
+  color: #ff6b00;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+}
+
+.nemwelbody {
+  margin: 100px 24px 24px 24px;
+}
+
+.nemwelbody p {
+  width: 327px;
+  height: 148px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+}
+
+.nemwelbtn {
+  width: 161px;
+  height: 48px;
+  background: #ff6b00;
+  text-align: center;
+  margin: 24px 0;
+}
+
+.nemwelbtn button {
+  background: #ff6b00;
+  border: 0;
+  padding: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  color: #fff;
+  line-height: 24px;
+}
+
+.nemwelbtn button:enabled {
+  background: #ff6b00;
+  color: #fff;
+}
+
+.nemwelbtn button:hover {
+  background-color: #fff;
+  border: 1px solid #ff6b00;
+  color: #ff6b00;
+}
+
+.nemwelbtn button:active {
+  background: #ff6b00;
+  color: #fff;
+}
+
+.nemwelbtn button:disabled {
+  background: rgba(255, 255, 255, 0.24);
+  color: #000;
+}
+
+/* the background image */
+
+.nemweldescright {
+  position: absolute;
+  right: 0;
+  top: 360px;
+}
+
+.Nemweldesc hr {
+  margin: 190px 24px 130.73px 24px;
+  border: 1px solid #fff;
+}
+
+/* skills section */
+
+.nemwelskills {
+  margin: 0 24px 0 24px;
+  padding-bottom: 131.54px;
+}
+
+.skill {
+  text-align: center;
+}
+
+.nemwelskillheader ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 44px;
+}
+
+.nemwelskillheader .lang {
+  margin-right: 12px;
+  width: 18px;
+  height: 18px;
+  background: #ff6b00;
+  transform: rotate(-45deg);
+  margin-bottom: -28px;
+}
+
+.nemwelskillheader .language {
+  width: 164px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.nemwelskillheader .frame {
+  width: 18px;
+  height: 18px;
+  background: #ff6b00;
+  margin-bottom: -28px;
+}
+
+.nemwelskillheader .frameworks {
+  width: 227px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.nemwelskillheader .sk {
+  width: 18px;
+  height: 18px;
+  background: #ff6b00;
+  border-radius: 150px;
+  margin-bottom: -28px;
+}
+
+.nemwelskillheader > p {
+  margin-top: 12px;
+}
+
+.nemwelskillheader .skills {
+  width: 115px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.skilllist ul li {
+  margin-bottom: 28px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+}

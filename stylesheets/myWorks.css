@@ -29,7 +29,7 @@ p {
 /* actual page styling */
 
 .myWorks {
-  background: #e5e5e5;
+  background: #fff;
   width: 375px;
 }
 
@@ -60,7 +60,8 @@ p {
 /* Featured projects now */
 
 .featuredWork {
-  margin: 80px 24px 24px 24px;
+  margin: 80px 24px 0 24px;
+  padding-bottom: 24px;
 }
 
 .featuredWorkLeft img {
@@ -75,6 +76,15 @@ p {
   left: 0;
   top: 0;
   border-radius: 0;
+}
+
+.projectHeader h2 {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
 }
 
 .featuredWorkRight .featuredWorkRightHeading h2 {
@@ -175,7 +185,7 @@ p {
   color: #091e42;
 }
 
-.featuredWorkRightBody button {
+.featuredWorkRightBody .button {
   width: 124px;
   height: 48px;
   background: #ff6b00;
@@ -190,6 +200,173 @@ p {
   cursor: pointer;
 }
 
-.featuredWorkRightBody button:hover {
+.featuredWorkRightBody .button:enabled {
+  background: #ff6b00;
+  color: #fff;
+}
+
+.featuredWorkRightBody .button:hover {
+  background-color: #fff;
+  border: 1px solid #ff6b00;
+  color: #ff6b00;
+}
+
+.featuredWorkRightBody .button:active {
+  background: #ff6b00;
+  color: #fff;
+}
+
+.featuredWorkRightBody .button:disabled {
+  background: rgba(255, 255, 255, 0.24);
+  color: #000;
+}
+
+/* The individual projects section now */
+
+.myProjects {
+  background: #fff;
+  width: 375px;
+  padding-bottom: 132px;
+}
+
+.project {
+  margin: 0 24px 36px 24px;
+  background: linear-gradient(180.45deg, rgba(50, 50, 38, 0) 0.65%, rgba(38, 38, 38, 0.9) 75.94%), url(../images/projectbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 386px;
+  position: relative;
+}
+
+.projectHeader {
+  /* padding-top: 84px; */
+  padding: 84px 16px 12px 16px;
+  width: 295px;
+  height: 81px;
+}
+
+.projectBody {
+  width: 295px;
+  height: 87px;
+  margin: 80px 16px 12px 16px;
+}
+
+.projectBody p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.projectBody ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 5px;
+  margin-bottom: 22px;
+}
+
+.projectBody ul li {
+  list-style: none;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-right: 12px;
+  position: static;
+}
+
+.projectHTML {
+  width: 56px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.24);
+  margin-right: 12px;
+}
+
+.projectHTML ul li {
+  width: 32px;
+  height: 20px;
+  padding: 10px 12px;
+  color: #fff;
+}
+
+.projectBootstrap {
+  width: 95px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.24);
+  margin-left: -24px;
+  margin-right: 12px;
+}
+
+.projectBootstrap ul li {
+  width: 71px;
+  height: 20px;
+  padding: 10px 12px;
+  color: #fff;
+}
+
+.projectRuby {
+  width: 61px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.24);
+  margin-right: 12px;
+  margin-left: -10px;
+}
+
+.projectRuby ul li {
+  width: 37px;
+  height: 20px;
+  padding: 10px 12px;
+  color: #fff;
+}
+
+.projectButton {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 48px;
+  background: #ff6b00;
+}
+
+.projectButton button {
+  width: 124px;
+  height: 48px;
+  padding: 12px;
+  background: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+}
+
+/* styling for the buttons */
+button:enabled {
+  background: #ff6b00;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #fff;
+  border: 1px solid #ff6b00;
+  color: #ff6b00;
+}
+
+button:active {
+  background: #ff6b00;
+  color: #fff;
+}
+
+button:disabled {
+  background: rgba(255, 255, 255, 0.24);
   color: #000;
 }

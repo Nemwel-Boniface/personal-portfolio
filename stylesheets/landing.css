@@ -118,6 +118,7 @@ ul li a {
   height: 590px;
   overflow: hidden;
   background: #1c1a19;
+  position: relative;
 }
 
 .bg img {
