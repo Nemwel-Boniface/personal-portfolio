@@ -29,7 +29,7 @@ p {
 /* actual page styling */
 
 .myWorks {
-  background: #e5e5e5;
+  background: #fff;
   width: 375px;
 }
 
@@ -200,14 +200,31 @@ p {
   cursor: pointer;
 }
 
+.featuredWorkRightBody .button:enabled {
+  background: #ff6b00;
+  color: #fff;
+}
+
 .featuredWorkRightBody .button:hover {
+  background-color: #fff;
+  border: 1px solid #ff6b00;
+  color: #ff6b00;
+}
+
+.featuredWorkRightBody .button:active {
+  background: #ff6b00;
+  color: #fff;
+}
+
+.featuredWorkRightBody .button:disabled {
+  background: rgba(255, 255, 255, 0.24);
   color: #000;
 }
 
 /* The individual projects section now */
 
 .myProjects {
-  background: #e5e5e5;
+  background: #fff;
   width: 375px;
   padding-bottom: 132px;
 }
@@ -246,8 +263,8 @@ p {
 }
 
 .projectBody ul {
-  display: flex;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   margin-top: 5px;
   margin-bottom: 22px;
 }
@@ -282,6 +299,7 @@ p {
   width: 95px;
   height: 40px;
   background: rgba(255, 255, 255, 0.24);
+  margin-left: -24px;
   margin-right: 12px;
 }
 
@@ -297,6 +315,7 @@ p {
   height: 40px;
   background: rgba(255, 255, 255, 0.24);
   margin-right: 12px;
+  margin-left: -10px;
 }
 
 .projectRuby ul li {
@@ -330,6 +349,24 @@ p {
   border: 0;
 }
 
-.projectButton button:hover {
+/* styling for the buttons */
+button:enabled {
+  background: #ff6b00;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #fff;
+  border: 1px solid #ff6b00;
+  color: #ff6b00;
+}
+
+button:active {
+  background: #ff6b00;
+  color: #fff;
+}
+
+button:disabled {
+  background: rgba(255, 255, 255, 0.24);
   color: #000;
 }

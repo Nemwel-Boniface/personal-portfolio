@@ -31,6 +31,9 @@ p {
   width: 375px;
   height: 2090px;
   background: #1c1a19;
+  background-image: url(../images/aboutmebgimage.png);
+  background-position: top 360px right 0;
+  background-repeat: no-repeat;
 }
 
 .Nemweldesc {
@@ -88,7 +91,24 @@ p {
   line-height: 24px;
 }
 
+.nemwelbtn button:enabled {
+  background: #ff6b00;
+  color: #fff;
+}
+
 .nemwelbtn button:hover {
+  background-color: #fff;
+  border: 1px solid #ff6b00;
+  color: #ff6b00;
+}
+
+.nemwelbtn button:active {
+  background: #ff6b00;
+  color: #fff;
+}
+
+.nemwelbtn button:disabled {
+  background: rgba(255, 255, 255, 0.24);
   color: #000;
 }
 
@@ -116,7 +136,7 @@ p {
   text-align: center;
 }
 
-.nemwelskillheader {
+.nemwelskillheader ul {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -129,6 +149,7 @@ p {
   height: 18px;
   background: #ff6b00;
   transform: rotate(-45deg);
+  margin-bottom: -28px;
 }
 
 .nemwelskillheader .language {
@@ -146,6 +167,7 @@ p {
   width: 18px;
   height: 18px;
   background: #ff6b00;
+  margin-bottom: -28px;
 }
 
 .nemwelskillheader .frameworks {
@@ -164,6 +186,7 @@ p {
   height: 18px;
   background: #ff6b00;
   border-radius: 150px;
+  margin-bottom: -28px;
 }
 
 .nemwelskillheader > p {
