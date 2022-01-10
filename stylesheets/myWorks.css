@@ -265,12 +265,15 @@ p {
 .projectBody ul {
   /* display: grid;
   grid-template-columns: 1fr 1fr 1fr;*/
-  margin-top: 5px; 
-  margin-bottom: 22px;
+  margin: 5px auto 22px auto;
   overflow: hidden;
 }
 .technology {
   float: left;
+  padding: 0.25em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .technology + .technology{
   margin-left: 12px;
