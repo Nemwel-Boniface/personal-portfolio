@@ -263,12 +263,18 @@ p {
 }
 
 .projectBody ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 5px;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr;*/
+  margin-top: 5px; 
   margin-bottom: 22px;
+  overflow: hidden;
 }
-
+.technology {
+  float: left;
+}
+.technology + .technology{
+  margin-left: 12px;
+}
 .projectBody ul li {
   list-style: none;
   color: #fff;
@@ -332,6 +338,7 @@ p {
   text-align: center;
   height: 48px;
   background: #ff6b00;
+  clear: left;
 }
 
 .projectButton button {
