@@ -126,3 +126,20 @@ form .fsubmit:disabled {
   background: rgba(255, 255, 255, 0.24);
   color: #000;
 }
+
+.footerLinks {
+  margin: 0 auto 0 auto;
+}
+
+.footerLinks .footL {
+  display: flex;
+  justify-content: center;
+}
+
+.footer hr {
+  margin: -15px 120px 10px 121px;
+  width: 134px;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 10px;
+}
