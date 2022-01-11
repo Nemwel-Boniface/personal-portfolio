@@ -28,7 +28,7 @@ p {
 
 /* actual page styling */
 .footer {
-  background: #e5e5e5;
+  background: #fff;
   width: 375px;
 }
 
@@ -46,7 +46,7 @@ p {
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  color: #000;
+  color: #172b40;
 }
 
 form .ftext {
