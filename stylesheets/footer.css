@@ -128,7 +128,7 @@ form .fsubmit:disabled {
 }
 
 .footerLinks {
-  margin: 0 auto 0 auto;
+  margin: -16px auto 8px auto;
 }
 
 .footerLinks .footL {
@@ -136,8 +136,15 @@ form .fsubmit:disabled {
   justify-content: center;
 }
 
+.footerLinks .footL li a i {
+  margin-right: 21px;
+  color: #505f79;
+  height: 20px;
+  width: 20px;
+}
+
 .footer hr {
-  margin: -15px 120px 10px 121px;
+  margin: 0 120px 10px 121px;
   width: 134px;
   height: 5px;
   background: #0d151e;
