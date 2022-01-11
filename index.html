@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="stylesheets/landing.css">
     <link rel="stylesheet" href="stylesheets/myWorks.css">
     <link rel="stylesheet" href="stylesheets/aboutme.css">
+    <link rel="stylesheet" href="stylesheets/footer.css">
 
     <!--Smooth scroll script-->
        
@@ -395,12 +396,29 @@
 
         <div class="footerForm">
             <form>
-                <input type="text" id="Full-Name" name="Full-Name" placeholder=" Full name" required>
-                <input type="email" id="Email" name="Email" placeholder=" Email address" required>
-                <textarea name="message" >Enter text here</textarea>
-                <input type="submit" value="Get in touch">
+                <input class="ftext" type="text" id="Full-Name" name="Full-Name" placeholder=" Full name" required>
+                <input class="femail" type="search" id="Email" name="Email" placeholder=" Email address" required>
+                <textarea class="ftextarea" name="message" >Enter text here</textarea><br>
+                <input class="fsubmit" type="submit" value="Get in touch">
             </form>
         </div>
+
+        <div class="footerLinks">
+            <ul class="authorsocials footL">
+                <li><a href="#"><img class="cat" src="images/github.png" alt="github logo"></a> </li>
+                <li >
+                    <ul class="imagejoin">
+                        <li><a href="#"><img class="i" src="images/linkedin-i.png" alt="linkedin logo"></a></li>
+                        <li><a href="#"><img class="n" src="images/linkedin-n.png" alt="linkedin logo"></a></li>
+                    </ul>
+                </li>
+                <li><a href="#"> <img class="cheers" src="images/cheers.png" alt="cheers logo"></a></li>
+                <li><a href="#"> <img class="tweet" src="images/tiwitter.png" alt="twitter logo"></a></li>
+                <li><a href="#"><img class="m" src="images/M.png" alt="m logo"></a></li>
+            </ul>
+        </div>
+
+        <hr>
     </footer>
 </body>
 </html>
