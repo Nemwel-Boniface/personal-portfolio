@@ -13,8 +13,8 @@ body {
 }
 
 body {
-  margin: 0 auto;
-  max-width: 375px;
+  /* margin: 0 auto; */
+  /* max-width: 375px; */
   position: relative;
 }
 
@@ -370,4 +370,16 @@ button:active {
 button:disabled {
   background: rgba(255, 255, 255, 0.24);
   color: #000;
+}
+
+/*Desktop version*/ 
+@media screen and (min-width: 992px ) {
+  .myWorks {
+    width: 100%;
+    background-color: aqua;
+  }
+  .myProjects {
+    width: 100%;
+    background-color: blue;
+  }
 }

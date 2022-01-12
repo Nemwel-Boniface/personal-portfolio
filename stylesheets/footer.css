@@ -13,8 +13,8 @@ body {
 }
 
 body {
-  margin: 0 auto;
-  max-width: 375px;
+  /* margin: 0 auto; */
+  /* max-width: 375px; */
   position: relative;
 }
 
@@ -161,4 +161,12 @@ form .fsubmit:disabled {
   height: 5px;
   background: #0d151e;
   border-radius: 10px;
+}
+
+/*Desktop version*/ 
+@media screen and (min-width: 992px ) {
+  .footer {
+    width: 100%;
+    background-color: yellow;
+  }
 }

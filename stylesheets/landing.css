@@ -13,8 +13,7 @@ body {
 }
 
 body {
-  margin: 0 auto;
-  max-width: 375px;
+  /* margin: 0 auto; */
   position: relative;
 }
 
@@ -31,7 +30,6 @@ p {
 /* Header section */
 
 .header {
-  height: 92px;
   width: 375px;
   left: 0;
   top: 0;
@@ -39,35 +37,19 @@ p {
   background-color: #3c3a39;
 }
 
-.topHeaderBar {
-  margin: 0 10px 10px 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 10px;
-  color: #fff;
-}
-
-.authorheader h1 {
-  font-size: 52px;
-  font-family: 'Crete Round', serif;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 64px;
-  letter-spacing: 0.37px;
-  color: #ff6800;
-}
-
-ul li a {
-  text-decoration: none;
-}
-
 .topnavBar {
-  margin: 10px 20px;
+  margin: 0 20px 0 20px;
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 54px;
   justify-content: space-between;
   align-items: center;
   color: #fff;
+}
+
+.navLinks {
+  display: none;
 }
 
 .authoroccupation h2 {
@@ -99,7 +81,7 @@ ul li a {
 
 /* main page styling */
 .main {
-  width: 375px;
+  /* width: 375px; */
   left: 0;
   top: 92px;
   border-radius: 0;
@@ -110,6 +92,16 @@ ul li a {
   margin: 0 24px 12px 24px;
   padding-top: 120px;
   position: relative;
+}
+
+.authorheader h1 {
+  font-size: 52px;
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6800;
 }
 
 .authordetails {
@@ -212,4 +204,68 @@ ul li {
 .authorsocials .imagejoin .n {
   height: 16.965517044067383px;
   width: 12.711573600769043px;
+}
+
+/*Desktop version now*/
+
+@media screen and (min-width: 992px ) {
+  .navright {
+    display: none;
+  }
+  .navLinks {
+    display: block;
+  }
+  .bg {
+    display: none;
+  }
+  html {
+    width: 100%;
+  }
+  .header {
+    background-color: #3c3a39;
+    width: 100%;
+  }
+  
+  .navleft h2 {
+height: 20px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+color: #FFFFFF;
+  }
+  .topnavBar {
+    margin: 0 154px;
+    padding: 26px 0;
+  }
+  .navLinks ul {
+    display: flex;
+  }
+  .navLinks ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+margin-left: 32px;
+  }
+  .navLinks ul li a i {
+    height: 4px;
+width: 12px;
+  }
+
+  /*main section styling */
+  .authordetails {
+    width: 100%;
+     height: 640px;
+    position: relative;
+    background-image: url(../images/landingdesktopV.png);
+    background-size: 590px 602px ;
+   background-position: bottom 40px right 0;
+  background-repeat: no-repeat;
+  }
+ 
 }

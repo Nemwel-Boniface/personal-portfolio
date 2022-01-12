@@ -13,8 +13,8 @@ body {
 }
 
 body {
-  margin: 0 auto;
-  max-width: 375px;
+  /* margin: 0 auto; */
+  /* max-width: 375px; */
   position: relative;
 }
 
@@ -212,4 +212,11 @@ p {
   font-size: 22px;
   line-height: 43px;
   color: #fff;
+}
+
+/*Desktop version*/ 
+@media screen and (min-width: 992px ) {
+  .whoIsNemwel {
+    width: 100%;
+  }
 }
