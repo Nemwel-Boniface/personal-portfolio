@@ -198,6 +198,7 @@ p {
   line-height: 24px;
   color: #fff;
   cursor: pointer;
+  border: 0;
 }
 
 .featuredWorkRightBody .button:enabled {

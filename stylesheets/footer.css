@@ -1,0 +1,160 @@
+/* This stylesheet will contain all the styling for the footer section */
+
+/* Project was designed with a mobile first approach */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 375px;
+  position: relative;
+}
+
+h1 {
+  font-family: 'Crete Round', serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* actual page styling */
+.footer {
+  background: #fff;
+  width: 375px;
+}
+
+.footerHeader {
+  margin: 0 24px 73px 24px;
+  padding-top: 120px;
+  width: 327px;
+  height: 216px;
+}
+
+.footerHeader h2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b40;
+}
+
+form input {
+  outline: 0;
+  border: none;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+form .ftext {
+  margin: 150px 40px 39px 40px;
+  height: 18px;
+  width: 295px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  align-items: center;
+  color: #979493;
+}
+
+form .femail {
+  margin: 0 40px 24px 40px;
+  height: 18px;
+  width: 295px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  align-items: center;
+  color: #979493;
+}
+
+form .ftextarea {
+  margin: 0 24px 24px 24px;
+  width: 327px;
+  background: #fbf8f7;
+  height: 114px;
+  padding: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+  border: 0;
+}
+
+form .fsubmit {
+  margin: 0 122px 150px 122px;
+  width: 131px;
+  height: 48px;
+  padding: 12px;
+  background: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  border: 0;
+}
+
+form .fsubmit:enabled {
+  background: #ff6b00;
+  color: #fff;
+}
+
+form .fsubmit:hover {
+  background-color: #fff;
+  border: 1px solid #ff6b00;
+  color: #ff6b00;
+}
+
+form .fsubmit:active {
+  background: #ff6b00;
+  color: #fff;
+}
+
+form .fsubmit:disabled {
+  background: rgba(255, 255, 255, 0.24);
+  color: #000;
+}
+
+.footerLinks {
+  margin: -16px auto 8px auto;
+}
+
+.footerLinks .footL {
+  display: flex;
+  justify-content: center;
+}
+
+.footerLinks .footL li a i {
+  margin-right: 21px;
+  color: #505f79;
+  height: 20px;
+  width: 20px;
+}
+
+.footer hr {
+  margin: 0 120px 10px 121px;
+  width: 134px;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 10px;
+}
