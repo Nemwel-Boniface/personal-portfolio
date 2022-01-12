@@ -52,10 +52,14 @@ p {
 form input {
   outline: 0;
   border: none;
-  padding-bottom: 14px;
-  border-bottom: 1px solid #dbd8d7;
+  padding: 16px;
+  border-style: none none solid none;
+  border-width: 3px;
+  border-color: #dbd8d7;
 }
-
+form input:focus {
+  border-color: rgba(255, 255, 255, 0.24);
+}
 form .ftext {
   margin: 150px 40px 39px 40px;
   height: 18px;
