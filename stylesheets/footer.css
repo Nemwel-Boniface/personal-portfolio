@@ -27,9 +27,12 @@ p {
 }
 
 /* actual page styling */
-.footer {
+/* .footer {
   background: #fff;
   width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footerHeader {
@@ -49,10 +52,23 @@ p {
   color: #172b40;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 2em;
+  width: 100%;
+}
+
+form > * {
+  width: 100%;
+  margin: 1em 0 !important;
+}
+
 form .ftext {
   margin: 150px 40px 39px 40px;
   height: 18px;
-  width: 295px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -65,7 +81,6 @@ form .ftext {
 form .femail {
   margin: 0 40px 24px 40px;
   height: 18px;
-  width: 295px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -77,56 +92,22 @@ form .femail {
 
 form .ftextarea {
   margin: 0 24px 24px 24px;
-  width: 327px;
   background: #fbf8f7;
   height: 114px;
-  padding: 12px;
+  padding: 16px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   color: #3c3a39;
-  border: 0;
+  border: none;
+  resize: vertical;
+  min-height: 6em;
+  height: 8em;
+  max-height: 10em;
 }
 
-form .fsubmit {
-  margin: 0 122px 150px 122px;
-  width: 131px;
-  height: 48px;
-  padding: 12px;
-  background: #ff6b00;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #fff;
-  border: 0;
-}
-
-form .fsubmit:enabled {
-  background: #ff6b00;
-  color: #fff;
-}
-
-form .fsubmit:hover {
-  background-color: #fff;
-  border: 1px solid #ff6b00;
-  color: #ff6b00;
-}
-
-form .fsubmit:active {
-  background: #ff6b00;
-  color: #fff;
-}
-
-form .fsubmit:disabled {
-  background: rgba(255, 255, 255, 0.24);
-  color: #000;
-}
 
 .footerLinks {
   margin: -16px auto 8px auto;
@@ -150,4 +131,121 @@ form .fsubmit:disabled {
   height: 5px;
   background: #0d151e;
   border-radius: 10px;
+} */
+
+/* Form section */
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  padding: 0 1.5em;
+  margin: 3em 0 2em;
+}
+
+.footerHeader {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b40;
+  padding: 2em 0 1em;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.small-text {
+  border-style: none none solid none;
+  border-width: 3px;
+  border-color: #dbd8d7;
+}
+
+.small-text:focus {
+  border-color: rgba(255, 255, 255, 0.24);
+}
+
+.ftextarea {
+  background: #fbf8f7;
+  border: none;
+  resize: vertical;
+  min-height: 6em;
+  height: 8em;
+  max-height: 10em;
+}
+
+.fsubmit {
+  padding: 12px;
+  background: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  border: none;
+}
+
+.fsubmit:enabled {
+  background: #ff6b00;
+  color: #fff;
+}
+
+.fsubmit:hover {
+  background-color: #fff;
+  border: 1px solid #ff6b00;
+  color: #ff6b00;
+}
+
+.fsubmit:active {
+  background: #ff6b00;
+  color: #fff;
+}
+
+.fsubmit:disabled {
+  background: rgba(255, 255, 255, 0.24);
+  color: #000;
+}
+
+.contact-form > input,
+.contact-form > textarea {
+  width: 100%;
+  margin: 1em 0;
+  padding: 16px;
+  color: #3c3a39;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+/* Footer section */
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.footerLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: 1em 0;
+}
+
+.footerLinks > a {
+  display: block;
+  text-decoration: none;
+  color: #505f79;
+  font-size: 24px;
 }
