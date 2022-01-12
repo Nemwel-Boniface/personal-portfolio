@@ -104,6 +104,7 @@ form .fsubmit {
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
+  border: 0;
 }
 
 form .fsubmit:enabled {
