@@ -266,6 +266,15 @@ width: 12px;
     background-size: 590px 602px ;
    background-position: bottom 40px right 0;
   background-repeat: no-repeat;
+  direction: rtl;
+  display: flex;
+  justify-content: flex-end;
+  }
+  .authorsocials ul {
+    /* display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap; */
+    /* justify-content: flex-start; */
   }
  
 }
