@@ -76,7 +76,7 @@ Feel free to check the [issues page](https://github.com/Nemwel-Boniface/personal
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-Major thanks to @jssol
+Major thanks to [Jonathan Sivahera](https://twitter.com/jsivahera)
 
 
 ## 📝 License

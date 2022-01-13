@@ -146,6 +146,7 @@ form .fsubmit:disabled {
 .footerLinks .footL {
   display: flex;
   justify-content: center;
+  margin-right: 120px;
 }
 
 .footerLinks .footL li a i {
@@ -153,6 +154,10 @@ form .fsubmit:disabled {
   color: #505f79;
   height: 20px;
   width: 20px;
+}
+
+body hr {
+  display: none;
 }
 
 .footer hr {
@@ -165,10 +170,12 @@ form .fsubmit:disabled {
 
 /* Desktop version */
 @media screen and (min-width: 992px) {
-  .footer hr {
+  body hr {
+    position: relative;
+    bottom: 110px;
+    display: block;
+    border-top: 1px solid #dfe1e6;
     width: 100%;
-    background: #0d151e;
-    margin-bottom: 25px;
   }
 
   .footer {

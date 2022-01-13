@@ -445,10 +445,29 @@ button:disabled {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  .projectButton {
+    display: none;
+  }
+
   .project {
     height: 435px;
     width: 369px;
     border-radius: 0;
+  }
+
+  .project:hover .projectButton {
+    display: block;
+  }
+
+  .project:hover > * {
+    display: none;
+  }
+
+  .project:hover {
+    background: url(../images/projecthover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease-in-out;
   }
 
   .projectHeader h2 {
@@ -472,9 +491,5 @@ button:disabled {
     font-weight: 400;
     font-size: 17px;
     line-height: 24px;
-  }
-
-  .projectButton {
-    display: none;
   }
 }
