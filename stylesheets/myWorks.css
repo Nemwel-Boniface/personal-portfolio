@@ -13,9 +13,6 @@ body {
 }
 
 body {
-  /* margin: 0 auto; */
-
-  /* max-width: 375px; */
   position: relative;
 }
 
@@ -243,7 +240,6 @@ p {
 }
 
 .projectHeader {
-  /* padding-top: 84px; */
   padding: 84px 16px 12px 16px;
   width: 295px;
   height: 81px;
@@ -445,8 +441,6 @@ button:disabled {
   .myProjects {
     margin: 5px 118px 0 118px;
     position: relative;
-
-    /* width: 100%; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
