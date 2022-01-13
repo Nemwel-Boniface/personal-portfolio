@@ -168,7 +168,66 @@ form .fsubmit:disabled {
 
 /* Desktop version */
 @media screen and (min-width: 992px) {
+  .footer hr {
+    width: 100%;
+    background: #0d151e;
+    margin-bottom: 25px;
+  }
   .footer {
     width: 100%;
+    margin: 0px 142px 40px 130px;
+    /* margin: 0 153px; */
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    /* align-items: flex-start; */
   }
+  .footerHeader  {
+    margin-right: 123px;
+  }
+  .footerHeader h2 {
+    width: 455px;
+height: 256px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+color: #262626;
+text-align: left;
+/* margin-right: 40px; */
+  }
+  form input {
+    width: 652px;
+  height: 18px;
+  width: 652px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+align-items: center;
+color: #979493;
+position: relative;
+bottom: 20px;
+
+}
+form .ftext {
+  width: 652px;
+}
+form .femail {
+  width: 652px;
+  /* margin-top: 39px; */
+}
+form .ftextarea {
+  width: 684px;
+}
+form .fsubmit {
+margin-top: 24px;
+margin-left: 22px;
+}
+.footerLinks {
+  position: relative;
+  right: 230px;
+}
 }
