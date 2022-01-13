@@ -154,6 +154,11 @@ form .fsubmit:disabled {
   color: #505f79;
   height: 20px;
   width: 20px;
+  transition: transform 0.5s;
+}
+
+.footerLinks .footL li a i:hover {
+  transform: translateY(-7px);
 }
 
 body .hr {
