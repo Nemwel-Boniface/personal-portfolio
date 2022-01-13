@@ -14,6 +14,7 @@ body {
 
 body {
   /* margin: 0 auto; */
+
   /* max-width: 375px; */
   position: relative;
 }
@@ -57,9 +58,11 @@ form input {
   border-width: 3px;
   border-color: #dbd8d7;
 }
+
 form input:focus {
   border-color: rgba(255, 255, 255, 0.24);
 }
+
 form .ftext {
   margin: 150px 40px 39px 40px;
   height: 18px;
@@ -163,8 +166,8 @@ form .fsubmit:disabled {
   border-radius: 10px;
 }
 
-/*Desktop version*/ 
-@media screen and (min-width: 992px ) {
+/* Desktop version */
+@media screen and (min-width: 992px) {
   .footer {
     width: 100%;
   }

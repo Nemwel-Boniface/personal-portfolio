@@ -14,6 +14,7 @@ body {
 
 body {
   /* margin: 0 auto; */
+
   /* max-width: 375px; */
   position: relative;
 }
@@ -214,8 +215,8 @@ p {
   color: #fff;
 }
 
-/*Desktop version*/ 
-@media screen and (min-width: 992px ) {
+/* Desktop version */
+@media screen and (min-width: 992px) {
   .whoIsNemwel {
     width: 100%;
   }
