@@ -10,8 +10,8 @@
     <!--google Fonts roboto, crete-round, Inter-->
     
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"> 
 
     <!-- font awesome icons -->
 
@@ -33,21 +33,18 @@
 </head>
 <body>
     <header class="header">
-        <div class="topHeaderBar">
-            <div class="time-left">
-                <h2>9:41</h2>
-            </div>
-
-            <div class="icons-right">
-                <i class="fa fa-signal" aria-hidden="true"></i>
-                <i class="fa fa-wifi" aria-hidden="true"></i>
-                <i class="fa fa-battery-full" aria-hidden="true"></i> 
-            </div>
-        </div>
-
         <nav class="topnavBar">
             <div class="navleft">
                 <h2><a href="#">Nemwel Boniface</a></h2>
+            </div>
+
+            <div class="navLinks">
+                <ul>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                </ul>
             </div>
 
             <nav class="navright">
@@ -58,29 +55,26 @@
 
     <main class="main">
         <section class="authordetails">
-            <div class="authorheader">
-                <h1>Hey There. I'm Nemwel</h1>
-            </div>
-
-            <div class="authoroccupation">
-                <h2>I’am a Software Developer</h2>
-            </div>
-
-            <div class="authorexplanation">
-                <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-                    don’t hestiate to contact me.</p>
+            <div class="Nems">
+                <div class="authorheader">
+                    <h1>Hey There. I'm Nemwel</h1>
+                </div>
+    
+                <div class="authoroccupation">
+                    <h2>I'am a Software Developer</h2>
+                </div>
+    
+                <div class="authorexplanation">
+                    <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+                        don't hestiate to contact me.</p>
+                </div>
             </div>
 
             <ul class="authorsocials">
-                <li><a href="#"><img class="cat" src="images/github.png" alt="github logo"></a> </li>
-                <li >
-                    <ul class="imagejoin">
-                        <li><a href="#"><img class="i" src="images/linkedin-i.png" alt="linkedin logo"></a></li>
-                        <li><a href="#"><img class="n" src="images/linkedin-n.png" alt="linkedin logo"></a></li>
-                    </ul>
-                </li>
+                <li><a href="https://github.com/Nemwel-Boniface"><img class="cat" src="images/github.png" alt="github logo"></a> </li>
+                <li ><a href="https://www.linkedin.com/in/nemwel-nyandoro-aa1b2620b/"><img class="linkedin" src="images/linkedin.png" alt="Linkedin logo"></a></li>
                 <li><a href="#"> <img class="cheers" src="images/cheers.png" alt="cheers logo"></a></li>
-                <li><a href="#"> <img class="tweet" src="images/tiwitter.png" alt="twitter logo"></a></li>
+                <li><a href="https://twitter.com/nemwel_bonie"> <img class="tweet" src="images/tiwitter.png" alt="twitter logo"></a></li>
                 <li><a href="#"><img class="m" src="images/M.png" alt="m logo"></a></li>
             </ul>
             
@@ -324,7 +318,7 @@
                         <h2>About me</h2>
                     </div>
                     <div class="nemwelbody">
-                        <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                        <p>Hello I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
                         <div class="nemwelbtn">
                             <button type="button">Get My Resume</button>
                         </div>
@@ -394,25 +388,28 @@
             <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
         </div>
   
-        <div class="footerForm">
-            <form action="https://formspree.io/f/mgedowaj" method="POST">
-                <input class="ftext" type="text" id="Full-Name" name="name" placeholder="Full name" maxlength="30" required>
-                <input class="femail" type="email" id="Email" name="_replyto" placeholder="Email address" required>
-                <textarea class="ftextarea" name="message" maxlength="500" placeholder="Enter text here" required></textarea><br>
-                <input class="fsubmit" type="submit" value="Get in touch">
-            </form>
-        </div>
-
-        <div class="footerLinks">
-            <ul class="footL">
-                <li><a href="https://github.com/Nemwel-Boniface"><i class="git fa fa-github" aria-hidden="true"></i></a> </li>
-                <li><a href="https://www.linkedin.com/in/nemwel-nyandoro-aa1b2620b/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                <li><a href="https://twitter.com/nemwel_bonie"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.instagram.com/its_n.e.m.w.e.l/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-            </ul>
+        <div>
+            <div class="footerForm">
+                <form action="https://formspree.io/f/mgedowaj" method="POST">
+                    <input class="ftext" type="text" id="Full-Name" name="name" placeholder="Full name" maxlength="30" required>
+                    <input class="femail" type="email" id="Email" name="_replyto" placeholder="Email address" required>
+                    <textarea class="ftextarea" name="message" maxlength="500" placeholder="Hello! I'm Nemwel glad to see you." required></textarea><br>
+                    <input class="fsubmit" type="submit" value="Get in touch">
+                </form>
+            </div>
+    
+            <div class="footerLinks">
+                <ul class="footL">
+                    <li><a href="https://github.com/Nemwel-Boniface"><i class="git fa fa-github" aria-hidden="true"></i></a> </li>
+                    <li><a href="https://www.linkedin.com/in/nemwel-nyandoro-aa1b2620b/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com/nemwel_bonie"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/its_n.e.m.w.e.l/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
         </div>
 
         <hr>
     </footer>
+    <hr class="hr">
 </body>
 </html>

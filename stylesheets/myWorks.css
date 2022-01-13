@@ -13,8 +13,6 @@ body {
 }
 
 body {
-  margin: 0 auto;
-  max-width: 375px;
   position: relative;
 }
 
@@ -242,7 +240,6 @@ p {
 }
 
 .projectHeader {
-  /* padding-top: 84px; */
   padding: 84px 16px 12px 16px;
   width: 295px;
   height: 81px;
@@ -370,4 +367,128 @@ button:active {
 button:disabled {
   background: rgba(255, 255, 255, 0.24);
   color: #000;
+}
+
+/* Desktop version */
+@media screen and (min-width: 992px) {
+  .myWorks {
+    width: 100%;
+    margin: 5px 118px 0 118px;
+    position: relative;
+  }
+
+  .myWorksHeading h1 {
+    float: left;
+    margin: 0 24px 114px 35.5px;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    width: 315px;
+    height: 52px;
+  }
+
+  .myWorksHeading hr {
+    width: 794px;
+    height: 0;
+    border: 0;
+    border-bottom: 4px solid #212121;
+    padding: 26px 0;
+    position: relative;
+    top: -25px;
+  }
+
+  .featuredWork {
+    clear: left;
+    margin: 0 25px 24px 23px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 18px;
+  }
+
+  .featuredWorkRightHeading h2 {
+    width: 448px;
+    height: 48px;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+  }
+
+  .featuredWorkRightBody p {
+    width: 448px;
+    height: 140px;
+    margin: 23px 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #091e42;
+  }
+
+  .featuredWorkRightBody ul {
+    margin: 0 0 24px 0;
+  }
+
+  /* Individual projects section */
+
+  .myProjects {
+    margin: 5px 118px 0 118px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .projectButton {
+    display: none;
+  }
+
+  .project {
+    height: 435px;
+    width: 369px;
+    border-radius: 0;
+  }
+
+  .project:hover .projectButton {
+    display: block;
+  }
+
+  .project:hover > * {
+    display: none;
+  }
+
+  .project:hover {
+    background: url(../images/projecthover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .projectHeader h2 {
+    width: 337px;
+    height: 81px;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+    margin: 85px auto 24px auto;
+  }
+
+  .projectBody p {
+    position: relative;
+    margin: 180px auto 24px auto;
+    width: 337px;
+    height: 72px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+  }
 }

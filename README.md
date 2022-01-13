@@ -4,7 +4,10 @@
 
 > A "portfolio" HTML-5 & CSS3 repository built during the portal learning module. 
 
-![screenshot](./images/Nemwellandingpage1.png)
+![screenshot](./images/Landing-MV.png)
+![screenshot](./images/Landing-DV.png)
+![screenshot](./images/Myworks-MV.png)
+![screenshot](./images/Myworks-DV.png)
 
 It is a show of my understanding of Gitflow, use of Linters, HTML5 semantics, CSS3 flexbox and figma.
 
@@ -14,6 +17,7 @@ It is a show of my understanding of Gitflow, use of Linters, HTML5 semantics, CS
 - CSS3
 - Linters
 - Figma
+- Formspree - form data handler
 
 ## Live Demo
 
@@ -72,10 +76,8 @@ Feel free to check the [issues page](https://github.com/Nemwel-Boniface/personal
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+Major thanks to [Jonathan Sivahera](https://twitter.com/jsivahera)
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 

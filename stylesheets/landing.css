@@ -13,8 +13,6 @@ body {
 }
 
 body {
-  margin: 0 auto;
-  max-width: 375px;
   position: relative;
 }
 
@@ -31,7 +29,6 @@ p {
 /* Header section */
 
 .header {
-  height: 92px;
   width: 375px;
   left: 0;
   top: 0;
@@ -39,35 +36,18 @@ p {
   background-color: #3c3a39;
 }
 
-.topHeaderBar {
-  margin: 0 10px 10px 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 10px;
-  color: #fff;
-}
-
-.authorheader h1 {
-  font-size: 52px;
-  font-family: 'Crete Round', serif;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 64px;
-  letter-spacing: 0.37px;
-  color: #ff6800;
-}
-
-ul li a {
-  text-decoration: none;
-}
-
 .topnavBar {
-  margin: 10px 20px;
+  margin: 0 20px 0 20px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
   align-items: center;
+  height: 54px;
+  justify-content: space-between;
   color: #fff;
+}
+
+.navLinks {
+  display: none;
 }
 
 .authoroccupation h2 {
@@ -99,7 +79,6 @@ ul li a {
 
 /* main page styling */
 .main {
-  width: 375px;
   left: 0;
   top: 92px;
   border-radius: 0;
@@ -110,6 +89,16 @@ ul li a {
   margin: 0 24px 12px 24px;
   padding-top: 120px;
   position: relative;
+}
+
+.authorheader h1 {
+  font-size: 52px;
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6800;
 }
 
 .authordetails {
@@ -183,6 +172,11 @@ ul li {
   width: 17.985200881958008px;
 }
 
+.authorsocials .linkedin {
+  height: 22.962478637695312px;
+  width: 22.985925674438477px;
+}
+
 .authorsocials .cheers {
   height: 20px;
   width: 14.166671752929688px;
@@ -203,13 +197,123 @@ ul li {
   display: flex;
 }
 
-.authorsocials .imagejoin li a .i {
-  height: 13.72413444519043px;
-  width: 4.974092960357666px;
-  margin-right: 5px;
-}
+/* Desktop version now */
 
-.authorsocials .imagejoin .n {
-  height: 16.965517044067383px;
-  width: 12.711573600769043px;
+@media screen and (min-width: 992px) {
+  .navright {
+    display: none;
+  }
+
+  .navLinks {
+    display: block;
+  }
+
+  .bg {
+    display: none;
+  }
+
+  .header {
+    background-color: #3c3a39;
+    width: 100%;
+  }
+
+  .navleft h2 {
+    height: 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+  }
+
+  .topnavBar {
+    margin: 0 154px;
+    padding: 26px 0;
+  }
+
+  .navLinks ul {
+    display: flex;
+  }
+
+  .navLinks ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 32px;
+  }
+
+  .navLinks ul li a i {
+    height: 4px;
+    width: 12px;
+  }
+
+  /* main section styling */
+  .authordetails {
+    width: 100%;
+    height: 798px;
+    position: relative;
+    background-image: url(../images/landingdesktopV.png);
+    background-size: 635px 680px;
+    background-position: bottom 100px right 0;
+    background-repeat: no-repeat;
+  }
+
+  .Nems {
+    margin: 0 0 0 125px;
+  }
+
+  .authorheader h1 {
+    width: 566px;
+    height: 160px;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 81px;
+    color: #f55800;
+    margin-top: 80px;
+  }
+
+  .authoroccupation h2 {
+    width: 566px;
+    height: 24px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    margin-bottom: 24px;
+  }
+
+  .authorexplanation p {
+    width: 566px;
+    height: 123px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #f4f5f7;
+    margin-top: 24px;
+    margin-bottom: 251px;
+  }
+
+  .authorsocials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    bottom: 280px;
+    left: 34px;
+  }
+
+  .authorsocials li {
+    margin-bottom: 20px;
+  }
 }
