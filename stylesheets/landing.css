@@ -245,6 +245,12 @@ ul li {
     font-size: 15px;
     line-height: 20px;
     margin-left: 32px;
+    transition: all ease-in 350ms;
+  }
+
+  .navLinks ul li a:hover {
+    text-decoration: underline;
+    filter: brightness(85%);
   }
 
   .navLinks ul li a i {
