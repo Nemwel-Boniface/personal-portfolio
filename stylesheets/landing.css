@@ -322,4 +322,10 @@ ul li {
   .authorsocials li {
     margin-bottom: 20px;
   }
+
+  .authorsocials li a:hover > img {
+    filter: brightness(200%);
+    transform: translate(8px) scale(1.5);
+    transition: all ease-in-out 200ms;
+  }
 }
