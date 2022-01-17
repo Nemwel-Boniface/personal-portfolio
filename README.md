@@ -20,7 +20,7 @@ It is a show of my understanding of Gitflow, use of Linters, HTML5 semantics, CS
 - Formspree - form data handler
 
 ## Live Demo
-
+Live site URL to portfolio
 [Live Demo Link](https://nemwel-boniface.github.io/personal-portfolio/)
 
 
