@@ -41,9 +41,9 @@ p {
   border-radius: 0;
 }
 
-.myWorksHeading h1 {
+.myWorksHeading h2 {
   font-weight: 400;
-  font-size: 40px;
+  font-size: 36px;
   font-style: normal;
   line-height: 52px;
   margin-bottom: 24px;
@@ -76,7 +76,7 @@ p {
   border-radius: 0;
 }
 
-.projectHeader h2 {
+.projectHeader h3 {
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
@@ -85,7 +85,7 @@ p {
   color: #fff;
 }
 
-.featuredWorkRight .featuredWorkRightHeading h2 {
+.featuredWorkRight .featuredWorkRightHeading h3 {
   font-family: 'Crete Round', serif;
   font-weight: 400;
   font-size: 32px;
@@ -377,7 +377,7 @@ button:disabled {
     position: relative;
   }
 
-  .myWorksHeading h1 {
+  .myWorksHeading h2 {
     float: left;
     margin: 0 24px 114px 35.5px;
     font-family: 'Crete Round', serif;
@@ -408,7 +408,7 @@ button:disabled {
     grid-gap: 18px;
   }
 
-  .featuredWorkRightHeading h2 {
+  .featuredWorkRightHeading h3 {
     width: 448px;
     height: 48px;
     font-family: 'Crete Round', serif;
@@ -469,7 +469,7 @@ button:disabled {
     transition: all 0.5s ease-in-out;
   }
 
-  .projectHeader h2 {
+  .projectHeader h3 {
     width: 337px;
     height: 81px;
     font-family: 'Crete Round', serif;
