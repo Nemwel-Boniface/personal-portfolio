@@ -2,6 +2,7 @@ const menubtn = document.getElementById('navright');
 const mobilemenu = document.querySelector('.mobile-menu');
 const menu = document.getElementById('menu');
 const logo = document.querySelector('.navleft');
+const lists = document.querySelectorAll('.mobilelist a');
 
 mobilemenu.style.display = 'none';
 menubtn.onclick = function () {
@@ -12,7 +13,6 @@ menubtn.onclick = function () {
     menu.style.top = '30px';
     menu.style.left = '290px';
     logo.style.display = 'none';
-    // logo.style.color = 'black';
   } else {
     mobilemenu.style.display = 'none';
     menu.src = 'images/menu.png';
@@ -22,3 +22,16 @@ menubtn.onclick = function () {
     menu.style.left = '0';
   }
 };
+
+function hideMenu() {
+  mobilemenu.style.display = 'none';
+  menu.src = 'images/menu.png';
+  logo.style.display = 'block';
+  menu.style.position = 'relative';
+  menu.style.top = '0';
+  menu.style.left = '0';
+}
+
+for (const list of lists) {
+  list.onclick = hideMenu;
+}
