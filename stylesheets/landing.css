@@ -53,9 +53,6 @@ a {
   display: none;
 }
 
-/* .close {
-  display: none;
-} */
 .authoroccupation h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -82,10 +79,6 @@ a {
 }
 
 .hidden {
-  display: none;
-}
-
-.close{
   display: none;
 }
 
@@ -116,7 +109,9 @@ a {
   text-decoration: none;
   color: #fff;
 }
-
+.topnavBar .navright a img {
+  width: 17px;
+}
 .mobile-menu ul {
   height: 755px;
   width: 375px;
