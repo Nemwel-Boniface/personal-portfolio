@@ -23,7 +23,10 @@ h1 {
 p {
   font-family: 'Roboto', sans-serif;
 }
-
+ 
+a {
+  font-family: 'Inter', sans-serif;
+}
 /* actual page styling */
 
 /* Header section */
@@ -102,7 +105,29 @@ p {
   text-decoration: none;
   color: #fff;
 }
+.mobile-menu ul li {
+  width: 327px;
+  border-bottom: 1px solid #6F6C6B;
+ margin: 0 24px;
+}
+.mobile-menu ul li a {
+  height: 24px;
+left: 0px;
+right: 68px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 44px;
+color: #FFF5E1;
+text-decoration: none;
+padding: 15px;
+margin-bottom: 24px;
+}
 
+.mobile-menu ul li a i {
+  display: none;
+}
 /* main page styling */
 .main {
   left: 0;
@@ -227,6 +252,10 @@ ul li {
 
 @media screen and (min-width: 992px) {
   .navright {
+    display: none;
+  }
+
+  .mobile-menu {
     display: none;
   }
 
