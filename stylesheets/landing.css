@@ -17,15 +17,15 @@ body {
 }
 
 h1 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
- 
+
 a {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 /* actual page styling */
 
@@ -57,7 +57,7 @@ a {
   display: none;
 }
 .authoroccupation h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
@@ -73,13 +73,21 @@ a {
   font-size: 18px;
   font-weight: 700;
   font-style: normal;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 24px;
   text-align: center;
   animation: bouge 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
   animation-iteration-count: 1;
   transform: translateX(0);
 }
+
+.hidden {
+  display: none;
+}
+
+/* .mobile-menu{
+  display: none;
+} */
 
 @keyframes bouge {
   10%,
@@ -116,22 +124,22 @@ a {
 }
 .mobile-menu ul li {
   width: 327px;
-  border-bottom: 1px solid #6F6C6B;
- margin: 0 24px;
+  border-bottom: 1px solid #6f6c6b;
+  margin: 0 24px;
 }
 .mobile-menu ul li a {
   height: 24px;
-left: 0px;
-right: 68px;
-font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 32px;
-line-height: 44px;
-color: #FFF5E1;
-text-decoration: none;
-padding: 15px;
-margin-bottom: 24px;
+  left: 0px;
+  right: 68px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
+  text-decoration: none;
+  padding: 15px;
+  margin-bottom: 24px;
 }
 
 .mobile-menu ul li a i {
@@ -153,7 +161,7 @@ margin-bottom: 24px;
 
 .authorheader h1 {
   font-size: 52px;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-weight: 400;
   font-style: normal;
   line-height: 64px;
@@ -198,7 +206,7 @@ margin-bottom: 24px;
 }
 
 .authorexplanation p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -283,7 +291,7 @@ ul li {
 
   .navleft h2 {
     height: 20px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -303,7 +311,7 @@ ul li {
   .navLinks ul li a {
     text-decoration: none;
     color: #fff;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -340,7 +348,7 @@ ul li {
   .authorheader h1 {
     width: 566px;
     height: 160px;
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
@@ -352,7 +360,7 @@ ul li {
   .authoroccupation h2 {
     width: 566px;
     height: 24px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -364,7 +372,7 @@ ul li {
   .authorexplanation p {
     width: 566px;
     height: 123px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
