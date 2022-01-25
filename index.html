@@ -72,9 +72,9 @@
 
         <div class="navLinks">
           <ul>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#aboutme">About</a></li>
+            <li><a href="#contact">Contact</a></li>
             <li>
               <a href="#"
                 ><i class="fa fa-envelope-o" aria-hidden="true"></i
@@ -83,10 +83,20 @@
           </ul>
         </div>
 
-        <nav class="navright">
-          <a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+        <nav id="navright" class="navright">
+            <a href="#"><img src="images/menu.png" id="menu" alt="Hamburger menu"></a>
         </nav>
       </nav>
+
+      <nav class="mobile-menu">
+        <ul>
+          <li class="mobilelist" ><a href="#portfolio">Portfolio</a></li>
+          <li class="mobilelist" ><a href="#aboutme">About</a></li>
+          <li class="mobilelist" ><a href="#contact">Contact</a></li>
+        </ul>
+     </nav>
+     <div id="menubtn">
+</div>
     </header>
 
     <main class="main">
@@ -146,7 +156,7 @@
         </div>
       </section>
 
-      <section class="myWorks">
+      <section class="myWorks" id="portfolio">
         <div class="myWorksHeading">
           <h2>My Recent Works</h2>
           <hr>
@@ -397,7 +407,7 @@
         </div>
       </section>
 
-      <section class="whoIsNemwel">
+      <section class="whoIsNemwel" id="aboutme">
         <div class="Nemweldesc">
           <div class="nemweldescleft">
             <div class="nemwelHeader">
@@ -474,7 +484,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="contact">
       <div class="footerHeader">
         <h2>
           I'm always interested in hearing about new projects, so if you'd like
@@ -543,5 +553,7 @@
       <hr />
     </footer>
     <hr class="hr" />
+
+    <script src="scripts/style.js"></script>
   </body>
 </html>
