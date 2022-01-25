@@ -32,6 +32,6 @@ function hideMenu() {
   menu.style.left = '0';
 }
 
-for (const list of lists) {
-  list.onclick = hideMenu;
-}
+lists.forEach((list) => {
+  list.addEventListener('click', hideMenu);
+});
