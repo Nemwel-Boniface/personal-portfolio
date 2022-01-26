@@ -101,3 +101,42 @@ cursor: pointer;
 .popupcontbodyrightbtns button img {
   padding-left: 10px;
 }
+
+/* MEDIA QUERY */
+
+@media screen and (min-width: 992px) {
+.mobilehide {
+  display: block;
+}
+.desktophide {
+  display: none;
+}
+.popupcont {
+  margin-bottom: 45px;
+}
+.popupcontlangs ul {
+  justify-content: flex-start;
+}
+.popupcontlangs ul li {
+  margin-left: 20px;
+}
+.popupcontbody {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+.popupcontbodyright p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+.popupcontbodyrightbtns {
+  justify-content: flex-start;
+  position: absolute;
+  bottom: 15%;
+}
+.popupcontbodyrightbtns button {
+  margin-left: 20px;
+}
+}
