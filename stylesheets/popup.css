@@ -44,7 +44,7 @@ color: #172B4D;
   font-size: 23px;
 }
 .popupcontlangs {
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
 .popupcontlangs ul {
   display: flex;
@@ -58,7 +58,7 @@ font-weight: 400;
 font-size: 13px;
 line-height: 16px;
 color: #3C3A39;
-padding: 10px;
+padding: 9px;
 }
 .popupcontbody {
   margin: 24px 16px;
@@ -66,39 +66,39 @@ padding: 10px;
 .popupcontbodyleft img {
   max-width: 100%;
   width: 100%;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 .popupcontbodyright p{
   font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 24px;
+line-height: 22px;
 color: #344563;
-margin-bottom: 16px;
+margin-bottom: 13px;
 }
 .popupcontbodyrightbtns {
   display: flex;
   justify-content: space-between;
 }
 .popupcontbodyrightbtns button {
-  padding: 12px;
-height: 48px;
+  padding: 11px;
+height: 46px;
 background: #FF6B00;
 font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: bold;
-font-size: 17px;
-line-height: 24px;
+font-size: 16px;
+line-height: 22px;
 align-items: center;
 text-align: center;
-letter-spacing: 0.03em;
+letter-spacing: 0.02em;
 color: #FFFFFF;
 border: 0;
 cursor: pointer;
 }
 .popupcontbodyrightbtns button img {
-  padding-left: 10px;
+  padding-left: 8px;
 }
 
 /* MEDIA QUERY */
