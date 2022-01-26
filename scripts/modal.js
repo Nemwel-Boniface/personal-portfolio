@@ -72,4 +72,10 @@ function modalpopup() {
   `;
   popUp.innerHTML = showing;
   body.appendChild(popUp);
+
+  document.addEventListener('click', (action) => {
+    if (action.target.id === 'closeModal') {
+      popUp.style.display = 'none';
+    }
+  });
 }
