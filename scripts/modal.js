@@ -1,7 +1,7 @@
 const body = document.querySelector('body');
-// const featuredModal = document.querySelector('.featuredmodal');
+const pro = document.querySelector('.featuredmodal');
 const featuredbtn = document.getElementById('muiltipostbtn');
-const projectBtn = document.querySelectorAll('.openProject button');
+const projectBtn = document.querySelectorAll('.projectButton .testbtnn');
 
 const popUp = document.createElement('div');
 popUp.classList.add('popup');
@@ -9,15 +9,57 @@ popUp.classList.add('popup');
 const projectList = [
   {
     id: 'proj1',
-    title: 'Multi Post Stories',
-    closebtn: '<i class="fa fa-times" aria-hidden="true"></i>',
-    html: 'html',
-    bootstrap: 'bootstrap',
-    ruby: 'Ruby On Rails',
-    projectImage: './images/mobilemodal.png',
-    projectDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam amet animi voluptate doloribus at quaerat, vitae dicta sunt possimus voluptatum, facilis vel? Eligendi, harum ipsum excepturi sint at quasi? Repellendus eveniet suscipit quibusdam inventore architecto minus eligendi adipisci. Harum atque voluptate dolore fugiat pariatur eius ullam architecto porro aspernatur nihil.',
-    projectbtnlive: 'https://nemwel-boniface.github.io/personal-portfolio/',
-    projectbtnsource: 'https://nemwel-boniface.github.io/personal-portfolio/',
+    projectHeader: 'Profesional Art Printing Data',
+    projectDesc: 'A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industry\'\s standard',
+    projectHtml: 'html',
+    projectbootstrap: 'bootstrap',
+    projectRuby: 'ruby',
+    projectButton: 'See Project',
+  },
+  {
+    id: 'proj1',
+    projectHeader: 'Profesional Art Printing Data',
+    projectDesc: 'A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industry\'\s standard',
+    projectHtml: 'html',
+    projectbootstrap: 'bootstrap',
+    projectRuby: 'ruby',
+    projectButton: 'See Project',
+  },
+  {
+    id: 'proj1',
+    projectHeader: 'Profesional Art Printing Data',
+    projectDesc: 'A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industry\'\s standard',
+    projectHtml: 'html',
+    projectbootstrap: 'bootstrap',
+    projectRuby: 'ruby',
+    projectButton: 'See Project',
+  },
+  {
+    id: 'proj1',
+    projectHeader: 'Profesional Art Printing Data',
+    projectDesc: 'A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industry\'\s standard',
+    projectHtml: 'html',
+    projectbootstrap: 'bootstrap',
+    projectRuby: 'ruby',
+    projectButton: 'See Project',
+  },
+  {
+    id: 'proj1',
+    projectHeader: 'Profesional Art Printing Data',
+    projectDesc: 'A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industry\'\s standard',
+    projectHtml: 'html',
+    projectbootstrap: 'bootstrap',
+    projectRuby: 'ruby',
+    projectButton: 'See Project',
+  },
+  {
+    id: 'proj1',
+    projectHeader: 'Profesional Art Printing Data',
+    projectDesc: 'A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industry\'\s standard',
+    projectHtml: 'html',
+    projectbootstrap: 'bootstrap',
+    projectRuby: 'ruby',
+    projectButton: 'See Project',
   },
   {
     id: 'proj6',
@@ -32,6 +74,7 @@ const projectList = [
     projectbtnsource: 'https://nemwel-boniface.github.io/personal-portfolio/',
   },
 ];
+
 
 function modalpopup() {
   popUp.style.display = 'block';
