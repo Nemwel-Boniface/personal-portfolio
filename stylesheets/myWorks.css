@@ -229,7 +229,7 @@ p {
 }
 
 .project {
-  margin: 0 24px 36px 24px;
+  margin: 0 24px 36px 0;
   background: linear-gradient(180.45deg, rgba(50, 50, 38, 0) 0.65%, rgba(38, 38, 38, 0.9) 75.94%), url(../images/projectbg.png);
   background-position: center;
   background-repeat: no-repeat;

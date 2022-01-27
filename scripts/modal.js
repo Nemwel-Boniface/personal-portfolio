@@ -131,7 +131,6 @@ function loopdiv() {
            <div class="projectHeader">
              <h3>${projectList[i].projectHeader}</h3>
            </div>
-
            <div class="projectBody">
              <p>
              ${projectList[i].projectDesc}
