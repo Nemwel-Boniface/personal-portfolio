@@ -2,7 +2,7 @@
 
 # PERSONAL PORTFOLIO
 
-> A "portfolio" HTML-5 & CSS3 repository built during the portal learning module. 
+> A "portfolio" HTML-5 & CSS3 repository built during the portal learning module.
 
 ![screenshot](./images/Landing-MV.png)
 ![screenshot](./images/Landing-DV.png)
@@ -15,6 +15,7 @@ It is a show of my understanding of Gitflow, use of Linters, HTML5 semantics, CS
 
 - HTML-5
 - CSS3
+- Javacript
 - Linters
 - Figma
 - Formspree - form data handler
@@ -51,7 +52,7 @@ Live site URL to portfolio
 
 ### Deployment
 
-- Project is deployed using 
+- Project is deployed using
 - git push <branch_name>
 
 

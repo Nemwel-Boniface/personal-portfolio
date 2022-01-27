@@ -58,6 +58,7 @@
     <link rel="stylesheet" href="stylesheets/myWorks.css" />
     <link rel="stylesheet" href="stylesheets/aboutme.css" />
     <link rel="stylesheet" href="stylesheets/footer.css" />
+    <link rel="stylesheet" href="stylesheets/popup.css" />
 
     <!--Smooth scroll script-->
 
@@ -201,210 +202,15 @@
                   </ul>
                 </li>
               </ul>
-              <button type="button" class="button">See Project</button>
+              <button type="button" id="muiltipostbtn" class="button">See Project</button>
             </div>
           </div>
         </div>
+        <div class="featuredmodal"></div>
       </section>
 
       <section class="myProjects">
-        <div class="project">
-          <div class="projectHeader">
-            <h3>Profesional Art Printing Data</h3>
-          </div>
 
-          <div class="projectBody">
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard
-            </p>
-            <ul>
-              <li class="projectHTML">
-                <ul>
-                  <li>html</li>
-                </ul>
-              </li>
-              <li class="projectBootstrap">
-                <ul>
-                  <li>bootstrap</li>
-                </ul>
-              </li>
-              <li class="projectRuby">
-                <ul>
-                  <li>ruby</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <div class="projectButton">
-            <button type="button">See Project</button>
-          </div>
-        </div>
-
-        <div class="project">
-          <div class="projectHeader">
-            <h3>Profesional Art Printing Data</h3>
-          </div>
-
-          <div class="projectBody">
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard
-            </p>
-            <ul>
-              <li class="projectHTML">
-                <ul>
-                  <li>html</li>
-                </ul>
-              </li>
-              <li class="projectBootstrap">
-                <ul>
-                  <li>bootstrap</li>
-                </ul>
-              </li>
-              <li class="projectRuby">
-                <ul>
-                  <li>ruby</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <div class="projectButton">
-            <button type="button">See Project</button>
-          </div>
-        </div>
-
-        <div class="project">
-          <div class="projectHeader">
-            <h3>Profesional Art Printing Data</h3>
-          </div>
-
-          <div class="projectBody">
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard
-            </p>
-            <ul>
-              <li class="projectHTML">
-                <ul>
-                  <li>html</li>
-                </ul>
-              </li>
-              <li class="projectBootstrap">
-                <ul>
-                  <li>bootstrap</li>
-                </ul>
-              </li>
-              <li class="projectRuby">
-                <ul>
-                  <li>ruby</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <div class="projectButton">
-            <button type="button">See Project</button>
-          </div>
-        </div>
-
-        <div class="project">
-          <div class="projectHeader">
-            <h3>Profesional Art Printing Data</h3>
-          </div>
-
-          <div class="projectBody">
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard
-            </p>
-            <ul>
-              <li class="projectHTML">
-                <ul>
-                  <li>html</li>
-                </ul>
-              </li>
-              <li class="projectBootstrap">
-                <ul>
-                  <li>bootstrap</li>
-                </ul>
-              </li>
-              <li class="projectRuby">
-                <ul>
-                  <li>ruby</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <div class="projectButton">
-            <button type="button">See Project</button>
-          </div>
-        </div>
-
-        <div class="project">
-          <div class="projectHeader">
-            <h3>Profesional Art Printing Data</h3>
-          </div>
-
-          <div class="projectBody">
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard
-            </p>
-            <ul>
-              <li class="projectHTML">
-                <ul>
-                  <li>html</li>
-                </ul>
-              </li>
-              <li class="projectBootstrap">
-                <ul>
-                  <li>bootstrap</li>
-                </ul>
-              </li>
-              <li class="projectRuby">
-                <ul>
-                  <li>ruby</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <div class="projectButton">
-            <button type="button">See Project</button>
-          </div>
-        </div>
-
-        <div class="project">
-          <div class="projectHeader">
-            <h3>Profesional Art Printing Data</h3>
-          </div>
-
-          <div class="projectBody">
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard
-            </p>
-            <ul>
-              <li class="projectHTML">
-                <ul>
-                  <li>html</li>
-                </ul>
-              </li>
-              <li class="projectBootstrap">
-                <ul>
-                  <li>bootstrap</li>
-                </ul>
-              </li>
-              <li class="projectRuby">
-                <ul>
-                  <li>ruby</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <div class="projectButton">
-            <button type="button">See Project</button>
-          </div>
-        </div>
       </section>
 
       <section class="whoIsNemwel" id="aboutme">
@@ -494,7 +300,7 @@
 
       <div>
         <div class="footerForm">
-          <form action="https://formspree.io/f/mgedowaj" method="POST">
+          <form action="https://formspree.io/f/mgedowaj" method="POST" id="form">
             <input
               class="ftext"
               type="text"
@@ -554,6 +360,7 @@
     </footer>
     <hr class="hr" />
 
+    <script src="scripts/modal.js"></script>
     <script src="scripts/style.js"></script>
   </body>
 </html>
