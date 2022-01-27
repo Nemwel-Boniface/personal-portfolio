@@ -1,7 +1,5 @@
 const body = document.querySelector('body');
-const pro = document.querySelector('.featuredmodal');
 const featuredbtn = document.getElementById('muiltipostbtn');
-const projectBtn = document.querySelectorAll('.projectButton .testbtnn');
 
 const popUp = document.createElement('div');
 popUp.classList.add('popup');
@@ -10,7 +8,7 @@ const projectList = [
   {
     id: 'proj1',
     projectHeader: 'Profesional Art Printing Data',
-    projectDesc: 'A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industry\'\s standard',
+    projectDesc: 'A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industrys standard',
     projectHtml: 'html',
     projectbootstrap: 'bootstrap',
     projectRuby: 'ruby',
@@ -19,7 +17,7 @@ const projectList = [
   {
     id: 'proj1',
     projectHeader: 'Profesional Art Printing Data',
-    projectDesc: 'A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industry\'\s standard',
+    projectDesc: 'A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industrys standard',
     projectHtml: 'html',
     projectbootstrap: 'bootstrap',
     projectRuby: 'ruby',
@@ -28,7 +26,7 @@ const projectList = [
   {
     id: 'proj1',
     projectHeader: 'Profesional Art Printing Data',
-    projectDesc: 'A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industry\'\s standard',
+    projectDesc: 'A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industrys standard',
     projectHtml: 'html',
     projectbootstrap: 'bootstrap',
     projectRuby: 'ruby',
@@ -37,7 +35,7 @@ const projectList = [
   {
     id: 'proj1',
     projectHeader: 'Profesional Art Printing Data',
-    projectDesc: 'A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industry\'\s standard',
+    projectDesc: 'A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industrys standard',
     projectHtml: 'html',
     projectbootstrap: 'bootstrap',
     projectRuby: 'ruby',
@@ -46,7 +44,7 @@ const projectList = [
   {
     id: 'proj1',
     projectHeader: 'Profesional Art Printing Data',
-    projectDesc: 'A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industry\'\s standard',
+    projectDesc: 'A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industrys standard',
     projectHtml: 'html',
     projectbootstrap: 'bootstrap',
     projectRuby: 'ruby',
@@ -55,7 +53,7 @@ const projectList = [
   {
     id: 'proj1',
     projectHeader: 'Profesional Art Printing Data',
-    projectDesc: 'A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industry\'\s standard',
+    projectDesc: 'A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industrys standard',
     projectHtml: 'html',
     projectbootstrap: 'bootstrap',
     projectRuby: 'ruby',
@@ -125,10 +123,10 @@ document.addEventListener('click', (click) => {
 featuredbtn.onclick = modalpopup;
 
 const projectsSection = document.querySelector('.myProjects');
- function loopdiv() {
+function loopdiv() {
   projectsSection.innerHTML = '';
-   for(let i = 0; i < projectList.length -1 ; i++) {
-  projectsSection.innerHTML = `${projectsSection.innerHTML}
+  for (let i = 0; i < projectList.length - 1; i += 1) {
+    projectsSection.innerHTML = `${projectsSection.innerHTML}
   <div class="project">
            <div class="projectHeader">
              <h3>${projectList[i].projectHeader}</h3>
@@ -159,11 +157,10 @@ const projectsSection = document.querySelector('.myProjects');
            <div class="projectButton openProject">
              <button id="proj1" class="testbtnn" onClick="loopdiv()">${projectList[i].projectButton}</button>
            </div>
-         </div>`;
-    }
+      </div>`;
   }
+}
 
-  window.addEventListener('load', () => {
-    loopdiv();
-   });
-
+window.addEventListener('load', () => {
+  loopdiv();
+});
