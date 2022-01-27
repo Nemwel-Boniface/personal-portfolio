@@ -49,3 +49,9 @@ function formValidate() {
   }
   return true;
 }
+
+form.addEventListener('submit', (submitForm) => {
+  if (!formValidate()) {
+    submitForm.preventDefault();
+  }
+});
