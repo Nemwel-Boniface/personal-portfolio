@@ -24,6 +24,12 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
+.error {
+  color: red;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+ }
+
 /* actual page styling */
 .footer {
   background: #fff;
