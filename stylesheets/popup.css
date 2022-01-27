@@ -1,3 +1,7 @@
+/* This stylesheet contains all the styling for the popup section */
+
+/* The popup was designed with a mobile first approach */
+
 /* popup styling */
 .mobilehide {
   display: none;
