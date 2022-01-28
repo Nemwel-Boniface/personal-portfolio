@@ -54,3 +54,10 @@ form.addEventListener('submit', (submitForm) => {
     submitForm.preventDefault();
   }
 });
+
+const contactForm = document.querySelector('form');
+let localSt = {
+  name: '',
+  _replyto: '',
+  message: '',
+};
