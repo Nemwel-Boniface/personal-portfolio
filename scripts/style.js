@@ -54,3 +54,24 @@ form.addEventListener('submit', (submitForm) => {
     submitForm.preventDefault();
   }
 });
+
+const contactForm = document.querySelector('form');
+
+let localSt = {
+  FullName: '',
+  Email: '',
+  message: '',
+};
+
+if (localStorage.getItem('localSt') != null) {
+  localSt = JSON.parse(localStorage.getItem('localSt'));
+  contactForm.FullName.value = localSt.FullName;
+  contactForm.Email.value = localSt.Email;
+  contactForm.message.value = localSt.message;
+}
+contactForm.addEventListener('change', () => {
+  localSt.FullName = contactForm.FullName.value;
+  localSt.Email = contactForm.Email.value;
+  localSt.message = contactForm.message.value;
+  localStorage.setItem('localSt', JSON.stringify(localSt));
+});
