@@ -73,6 +73,21 @@ const projectList = [
   },
 ];
 
+const myFeaturedProject = [
+  {
+    id: 'proj1',
+    title: 'Talanta Mtaani',
+    closebtn: '<i class="fa fa-times" aria-hidden="true"></i>',
+    html: 'HTML',
+    css: 'CSS',
+    JavaScript: 'JavaScript',
+    projectImage: './images/',
+    projectDesc: 'Talanta Mtaani is my capstone project that I did during my first 4 weeks at Microverse. It showcases my understanding of HTML, CSS and basic Javscript DOM manipulation.',
+    projectbtnlive: 'https://nemwel-boniface.github.io/Talanta-Mtaani/',
+    projectbtnsource: 'https://github.com/Nemwel-Boniface/Talanta-Mtaani',
+  },
+]
+
 function modalpopup() {
   popUp.style.display = 'block';
   body.appendChild(popUp);
