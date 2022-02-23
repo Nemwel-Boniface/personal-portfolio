@@ -84,6 +84,10 @@
   margin-bottom: 20px;
 }
 
+.TalantaF {
+  height: 35vh;
+}
+
 .popupcontbodyright p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -149,6 +153,10 @@
     gap: 24px;
   }
 
+  .TalantaF {
+    height: 60vh;
+  }
+
   .popupcontbodyright p {
     font-style: normal;
     font-weight: normal;
@@ -160,6 +168,11 @@
     justify-content: flex-start;
     position: absolute;
     bottom: 15%;
+  }
+
+  #talantaF {
+    position: absolute;
+    bottom: 25%;
   }
 
   .popupcontbodyrightbtns button {

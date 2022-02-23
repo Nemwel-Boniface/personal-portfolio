@@ -81,7 +81,7 @@ const myFeaturedProject = [
     html: 'HTML',
     css: 'CSS',
     JavaScript: 'JavaScript',
-    projectImage: './images/',
+    projectImage: './images/TalantaFeatured.png',
     projectDesc: 'Talanta Mtaani is my capstone project that I did during my first 4 weeks at Microverse. It showcases my understanding of HTML, CSS and basic Javscript DOM manipulation.',
     projectbtnlive: 'https://nemwel-boniface.github.io/Talanta-Mtaani/',
     projectbtnsource: 'https://github.com/Nemwel-Boniface/Talanta-Mtaani',
@@ -95,7 +95,7 @@ function modalpopup() {
   <div class="popupcont">
       <div class="popupcontheader">
         <h2 class="desktophide">${projectList[projectList.length - 1].title}</h2>
-        <h2 class="mobilehide">Talanta Mtaani</h2>
+        <h2 class="mobilehide">Keeping track of hundreds  of components website</h2>
         <button id="closeModal" class="closeModal">${projectList[projectList.length - 1].closebtn}</button>
       </div>
       <div class="popupcontlangs">
@@ -111,7 +111,7 @@ function modalpopup() {
         </div>
         <div class="popupcontbodyright">
           <p class="desktophide">${projectList[projectList.length - 1].projectDesc}</p>
-          <p class="mobilehide">Talanta Mtaani is my capstone project that I did during my first 4 weeks at Microverse. It showcases my understanding of HTML, CSS and basic Javscript DOM manipulation.</p>
+          <p class="mobilehide">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>
           <div class="popupcontbodyrightbtns">
           <a href="https://nemwel-boniface.github.io/personal-portfolio/"><button type="button" id="modalbtns live">See Live <img src="./images/viewlive.png" alt="view live"></button></a>
           <a href="https://github.com/Nemwel-Boniface/personal-portfolio"><button type="button" id="modalbtns live">See Source <img src="./images/viewsource.png" alt="view Source"></button></a>
@@ -144,7 +144,7 @@ function featuredmodalpopup() {
   <div class="popupcont">
       <div class="popupcontheader">
         <h2 class="desktophide">${myFeaturedProject[0].title}</h2>
-        <h2 class="mobilehide">Keeping track of hundreds  of components website</h2>
+        <h2 class="mobilehide">Talanta Mtaani</h2>
         <button id="closeModal" class="closeModal">${myFeaturedProject[0].closebtn}</button>
       </div>
       <div class="popupcontlangs">
@@ -156,14 +156,14 @@ function featuredmodalpopup() {
       </div>
       <div class="popupcontbody">
         <div class="popupcontbodyleft">
-          <img src="${myFeaturedProject[0].projectImage}" alt="image">
+          <img class="TalantaF" src="${myFeaturedProject[0].projectImage}" alt="image">
         </div>
         <div class="popupcontbodyright">
           <p class="desktophide">${myFeaturedProject[0].projectDesc}</p>
-          <p class="mobilehide">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>
-          <div class="popupcontbodyrightbtns">
-          <a href="https://nemwel-boniface.github.io/personal-portfolio/"><button type="button" id="modalbtns live">See Live <img src="./images/viewlive.png" alt="view live"></button></a>
-          <a href="https://github.com/Nemwel-Boniface/personal-portfolio"><button type="button" id="modalbtns live">See Source <img src="./images/viewsource.png" alt="view Source"></button></a>
+          <p class="mobilehide">Talanta Mtaani is my capstone project that I did during my first 4 weeks at Microverse. It showcases my understanding of HTML, CSS and basic Javscript DOM manipulation.</p>
+          <div class="popupcontbodyrightbtns" id="talantaF">
+          <a href="https://nemwel-boniface.github.io/Talanta-Mtaani/"><button type="button" id="modalbtns live">See Live <img src="./images/viewlive.png" alt="view live"></button></a>
+          <a href="https://github.com/Nemwel-Boniface/Talanta-Mtaani"><button type="button" id="modalbtns live">See Source <img src="./images/viewsource.png" alt="view Source"></button></a>
           </div>
         </div>
       </div>
