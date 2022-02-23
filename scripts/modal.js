@@ -86,7 +86,7 @@ const myFeaturedProject = [
     projectbtnlive: 'https://nemwel-boniface.github.io/Talanta-Mtaani/',
     projectbtnsource: 'https://github.com/Nemwel-Boniface/Talanta-Mtaani',
   },
-]
+];
 
 function modalpopup() {
   popUp.style.display = 'block';
@@ -129,7 +129,6 @@ function modalpopup() {
     }
   });
 }
-
 
 document.addEventListener('click', (click) => {
   if (click.target.id === 'proj1') {
@@ -178,7 +177,6 @@ function featuredmodalpopup() {
     }
   });
 }
-
 
 featuredbtn.onclick = featuredmodalpopup;
 
